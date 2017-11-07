@@ -28,4 +28,4 @@ class FormHandler {
   }
 }
 
-export default class {}
+export default FormHandler

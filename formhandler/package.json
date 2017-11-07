@@ -9,6 +9,7 @@
     "dev": "nodemon index.js",
     "build": "browserify -d app/scripts/src/formhandler.js -o app/scripts/dist/formhandler.js ",
     "watch": "watchify -v -d app/scripts/src/formhandler.js -o app/scripts/dist/formhandler.js"
+
   },
   "browserify": {
     "transform": [
